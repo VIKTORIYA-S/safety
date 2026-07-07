@@ -169,8 +169,8 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: rgba(72, 183, 183, 0.813);
-    display: flex;
-    /* display: none; */
+    /* display: flex; */
+    display: none;
     align-items: center;
     justify-content: center;
 }
