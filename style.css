@@ -359,6 +359,16 @@ body {
         0px 8px 6px rgba(0,0,0,0.2),
         0px 12px 12px rgba(0,0,0,0.25),
         0px 18px 18px rgba(0,0,0,0.3);
+        cursor: pointer;
+}
+
+#button:hover {
+    background-color: #d3bb03;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: #a70404;
+    font-weight: 600;
+
 }
 
 .open {
