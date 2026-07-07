@@ -12,11 +12,11 @@ button.addEventListener('click', function () {
     const value = input.value;
     if (value === PAROL) {
         window.open("admin.html", "_blank");
+        modal.classList.remove("open");
         // window.location.href = "admin.html";
         // или window.open("success.html", "_self");
     } else {
         alert("Неправильный пароль!");
     }
     input.value = '';
-    modal.classList.remove('open');
 });
